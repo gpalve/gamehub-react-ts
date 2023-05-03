@@ -9,7 +9,7 @@ import {
 import { MdPhoneIphone } from "react-icons/md";
 
 import { Platform } from "../hooks/useGames";
-import { Text, Icon, HStack } from "@chakra-ui/react";
+import { Icon, HStack } from "@chakra-ui/react";
 import { IconType } from "react-icons";
 
 interface Props {
@@ -26,7 +26,7 @@ const PlatformIconList = ({ platforms }: Props) => {
     android: FaAndroid,
   };
   return (
-    <HStack marginY={1}>
+    <HStack marginY={2}>
       {platforms.map((platform) => (
         <Icon as={iconMap[platform.slug]} color="gray.500"></Icon>
       ))}
