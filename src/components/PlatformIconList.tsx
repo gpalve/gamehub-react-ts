@@ -10,7 +10,7 @@ import { MdPhoneIphone } from "react-icons/md";
 
 import { Icon, HStack } from "@chakra-ui/react";
 import { IconType } from "react-icons";
-import { Platform } from "../hooks/usePlatforms";
+import { Platform } from "../entities/Platform";
 
 interface Props {
   platforms: Platform[];
