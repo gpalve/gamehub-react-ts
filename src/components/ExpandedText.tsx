@@ -6,7 +6,7 @@ interface Props {
 
 const ExpandedText = ({ text }: Props) => {
   const [expanded, setExpanded] = useState(false);
-  const limit = 300;
+  const limit = 800;
 
   if (text.length <= 300) return <Text>{text}</Text>;
 
