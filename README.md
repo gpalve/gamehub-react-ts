@@ -40,6 +40,7 @@
   <p>Contributions to this project are welcome. If you find a bug or want to suggest a new feature, please open an issue on the GitHub repository.</p>
 
   <h2>License</h2>
-  <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for more information.</p>
+  <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for more information.</p> <br>
+  <img src="https://github.com/gpalve/gamehub-react-ts/blob/main/public/ss.jpg?raw=true">
 </body>
 </html>
